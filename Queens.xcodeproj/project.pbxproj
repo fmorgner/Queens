@@ -1,0 +1,208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7F4C5B314DB3B740046EA58 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7F4C5B214DB3B740046EA58 /* main.cpp */; };
+		C7F4C5B514DB3B740046EA58 /* Queens.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C7F4C5B414DB3B740046EA58 /* Queens.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C7F4C5AC14DB3B740046EA58 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				C7F4C5B514DB3B740046EA58 /* Queens.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C7F4C5AE14DB3B740046EA58 /* Queens */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Queens; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F4C5B214DB3B740046EA58 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C7F4C5B414DB3B740046EA58 /* Queens.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Queens.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7F4C5AB14DB3B740046EA58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7F4C5A314DB3B740046EA58 = {
+			isa = PBXGroup;
+			children = (
+				C7F4C5B114DB3B740046EA58 /* Queens */,
+				C7F4C5AF14DB3B740046EA58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7F4C5AF14DB3B740046EA58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7F4C5AE14DB3B740046EA58 /* Queens */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7F4C5B114DB3B740046EA58 /* Queens */ = {
+			isa = PBXGroup;
+			children = (
+				C7F4C5B214DB3B740046EA58 /* main.cpp */,
+				C7F4C5B414DB3B740046EA58 /* Queens.1 */,
+			);
+			path = Queens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7F4C5AD14DB3B740046EA58 /* Queens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7F4C5B814DB3B740046EA58 /* Build configuration list for PBXNativeTarget "Queens" */;
+			buildPhases = (
+				C7F4C5AA14DB3B740046EA58 /* Sources */,
+				C7F4C5AB14DB3B740046EA58 /* Frameworks */,
+				C7F4C5AC14DB3B740046EA58 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Queens;
+			productName = Queens;
+			productReference = C7F4C5AE14DB3B740046EA58 /* Queens */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7F4C5A514DB3B740046EA58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C7F4C5A814DB3B740046EA58 /* Build configuration list for PBXProject "Queens" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7F4C5A314DB3B740046EA58;
+			productRefGroup = C7F4C5AF14DB3B740046EA58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7F4C5AD14DB3B740046EA58 /* Queens */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7F4C5AA14DB3B740046EA58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F4C5B314DB3B740046EA58 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C7F4C5B614DB3B740046EA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C7F4C5B714DB3B740046EA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C7F4C5B914DB3B740046EA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7F4C5BA14DB3B740046EA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7F4C5A814DB3B740046EA58 /* Build configuration list for PBXProject "Queens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F4C5B614DB3B740046EA58 /* Debug */,
+				C7F4C5B714DB3B740046EA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7F4C5B814DB3B740046EA58 /* Build configuration list for PBXNativeTarget "Queens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F4C5B914DB3B740046EA58 /* Debug */,
+				C7F4C5BA14DB3B740046EA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7F4C5A514DB3B740046EA58 /* Project object */;
+}

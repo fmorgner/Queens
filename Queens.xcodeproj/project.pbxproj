@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C7F4C5B314DB3B740046EA58 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7F4C5B214DB3B740046EA58 /* main.cpp */; };
-		C7F4C5BD14DB3B880046EA58 /* CQueensSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7F4C5BC14DB3B880046EA58 /* CQueensSolver.cpp */; };
+		C7F4C5CC14DB68D90046EA58 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7F4C5B214DB3B740046EA58 /* main.cpp */; };
+		C7F4C5CD14DB68DB0046EA58 /* CQueensSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7F4C5BC14DB3B880046EA58 /* CQueensSolver.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +25,9 @@
 
 /* Begin PBXFileReference section */
 		C7F4C5AE14DB3B740046EA58 /* Queens */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Queens; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7F4C5B214DB3B740046EA58 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		C7F4C5BB14DB3B880046EA58 /* CQueensSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQueensSolver.h; sourceTree = "<group>"; };
-		C7F4C5BC14DB3B880046EA58 /* CQueensSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CQueensSolver.cpp; sourceTree = "<group>"; };
+		C7F4C5B214DB3B740046EA58 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = Source/main.cpp; sourceTree = SOURCE_ROOT; };
+		C7F4C5BB14DB3B880046EA58 /* CQueensSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CQueensSolver.h; path = Source/CQueensSolver.h; sourceTree = SOURCE_ROOT; };
+		C7F4C5BC14DB3B880046EA58 /* CQueensSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CQueensSolver.cpp; path = Source/CQueensSolver.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +118,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7F4C5B314DB3B740046EA58 /* main.cpp in Sources */,
-				C7F4C5BD14DB3B880046EA58 /* CQueensSolver.cpp in Sources */,
+				C7F4C5CC14DB68D90046EA58 /* main.cpp in Sources */,
+				C7F4C5CD14DB68DB0046EA58 /* CQueensSolver.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

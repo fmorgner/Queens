@@ -94,6 +94,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Felix Morgner";
 			};
 			buildConfigurationList = C7F4C5A814DB3B740046EA58 /* Build configuration list for PBXProject "Queens" */;
 			compatibilityVersion = "Xcode 3.2";

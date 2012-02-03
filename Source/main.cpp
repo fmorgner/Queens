@@ -112,11 +112,11 @@ void PrintGrid()
 		  {
 			if(vGrid[nColumn][nRow])
 				{
-				cout << "1 ";
+				cout << "Q ";
 				}
 			else
 				{
-				cout << "0 ";
+				cout << "• ";
 				}
 			}
 		cout << endl;

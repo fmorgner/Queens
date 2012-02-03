@@ -115,28 +115,25 @@ bool CQueensSolver::IsSafe(int nRow, int nColumn)
 				}
 			else
 				{
-				for(int nColumnIndex = nColumn-1; nColumnIndex >= 0; nColumnIndex--)
+				for(int nColumnIndex = nColumn - 1; nColumnIndex >= 0; nColumnIndex--)
 					{
 					std::vector<bool> vBlockColumn = m_vGrid[nColumnIndex];
+					
+					int nUpwardDiagonal = nRow + nColumn - nColumnIndex;
+					int nDownwardDiagonal = nRow - nColumn + nColumnIndex;
+					
 					if(vBlockColumn[nRow])
 						{
 						return false;
 						}
-					}
-
-				std::vector<bool> vLeftNeighbourColumn = m_vGrid[nColumn - 1];
-
-				if(nRow == 0)
-					{
-					return !(vLeftNeighbourColumn[nRow] | vLeftNeighbourColumn[nRow+1]);
-					}
-				else if(nRow < vLeftNeighbourColumn.size() && nRow < vColumn.size())
-					{
-					return !(vLeftNeighbourColumn[nRow - 1] | vLeftNeighbourColumn[nRow] | vLeftNeighbourColumn[nRow + 1]);
-					}
-				else
-					{
-					return !(vLeftNeighbourColumn[nRow - 1] | vLeftNeighbourColumn[nRow]);
+					else if(nUpwardDiagonal >= 0 && nUpwardDiagonal <= vBlockColumn.size() && vBlockColumn[nUpwardDiagonal])
+						{
+						return false;
+						}
+					else if(nDownwardDiagonal >= 0 && nDownwardDiagonal <= vBlockColumn.size() && vBlockColumn[nDownwardDiagonal])
+						{
+						return false;
+						}
 					}
 				}
 			}
